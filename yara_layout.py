@@ -1,11 +1,14 @@
 
 '''
 @Author : Shivang 
-@DEscription :
-	- Collect strings required for yara rule and save it in a file. 
-	- Open this file, get strings and prepare yara rule wrapper from the strings. 
-	- Save the wrapper in new file. 
-	- Open this new file in sublime.
+@Pre-requisite :  Collect strings required for yara rule and save it in a file. (Use this file as input to the script)
+@Description : This script automates following - 
+	- Opens strings file and prepares yara rule wrapper. 
+	- Saves the wrapper in new file. 
+	- Opens this new file in sublime.
+	
+@syntax :
+       > python3 yara_layout.py
 '''
 
 import subprocess
